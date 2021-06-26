@@ -1,0 +1,32 @@
+.post {
+    border-bottom: 2px;
+    border-color: black;
+    margin-bottom: 10px;
+}
+
+.author-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.author-name {
+    font-weight: bold;
+}
+
+.author-handle {
+    font-size: 0.75em;
+}
+
+.content-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.picture-box {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin-right: 10px;
+}

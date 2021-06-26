@@ -1,9 +1,15 @@
-<div>
-    <div>
-        <div>
-            <!-- Profile picture -->
-            {{ author.name }}
-            {{ author.handle }}
+<div class="post">
+    <div class="content-info">
+        <div class="author-info">
+            <div class="picture-box"></div>
+            <div>
+                <div class="author-name">
+                    {{ author.name }}
+                </div>
+                <div class="author-handle">
+                    {{ author.handle }}
+                </div>
+            </div>
         </div>
         <div>
             {{ date }}
