@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import POSTS from 'src/assets/posts.json';
 
 @Component({
   selector: 'app-content',
@@ -9,7 +10,7 @@ export class ContentComponent implements OnInit {
 
   constructor() { }
 
-  post = [1, 2, 3, 4, 5];
+  post = POSTS;
 
   ngOnInit(): void {
   }
