@@ -39,6 +39,12 @@
 }
 
 .post-img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
+}
+
+.post-img-box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }

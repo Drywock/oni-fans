@@ -6,20 +6,21 @@
             </div>
             <div>
                 <div class="author-name">
-                    {{ author.name }}
+                    {{ post.author.name }}
                 </div>
                 <div class="author-handle">
-                    {{ author.handle }}
+                    {{ post.author.handle }}
                 </div>
             </div>
         </div>
         <div>
-            {{ date }}
+            {{ post.date }}
         </div>
     </div>
     <div>
-        <p>{{ content.text }}</p>
-        <!-- picture -->
-        <img class="post-img" src="assets/img/car-1.PNG" />
+        <p>{{ post.content.text }}</p>
+        <div class="post-img-box">
+            <img class="post-img" [src]="post.content.img" />
+        </div>
     </div>
 </div>

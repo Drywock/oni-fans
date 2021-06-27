@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-post',
@@ -6,16 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./post.component.scss']
 })
 export class PostComponent implements OnInit {
-
-  author = {
-    name: 'Test',
-    handle: '@Test'
-  };
-  date = '01/01/2021';
-
-  content = {
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque nisl ut turpis vulputate commodo. Donec at maximus velit. Aliquam interdum, leo non dapibus iaculis, libero nulla laoreet urna, nec congue orci libero in velit."
-  }
+  @Input() post: any;
+  //  {
+  //   author: {
+  //     name: string,
+  //     handle: string
+  //   },
+  //   date: string,
+  //   content: {
+  //     text: string,
+  //     img: string
+  //   }
+  // };
 
   constructor() { }
 
