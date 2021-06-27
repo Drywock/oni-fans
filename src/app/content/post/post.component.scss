@@ -1,7 +1,9 @@
 .post {
-    border-bottom: 2px;
-    border-color: black;
+    border: 0.1px solid rgb(189, 189, 189);
+    box-shadow: 5px 5px 5px rgb(112, 112, 112);
     margin-bottom: 10px;
+    padding: 1%;
+    background-color: white;
 }
 
 .author-info {
@@ -29,4 +31,10 @@
     height: 50px;
     background-color: red;
     margin-right: 10px;
+    border: 1px solid black;
+}
+
+.profil-pict {
+    height: 100%;
+    width: 100%;
 }
