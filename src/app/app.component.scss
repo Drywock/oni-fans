@@ -17,3 +17,16 @@ main {
 img {
     height: 7vh;
 }
+
+@media(max-width: 1000px){
+    main{
+        padding: 0.5% 15%;
+    }
+}
+
+
+@media(max-width: 700px){
+    main{
+        padding: 1%;
+    }
+}
