@@ -13,7 +13,9 @@ img {
 .profil-pict {
     width: 10vh;
     height: 10vh;
-    border: 1px solid black;
+    border: 2px solid #ce0207;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .profil-id {

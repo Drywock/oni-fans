@@ -26,11 +26,12 @@
 
 .picture-box {
     display: block;
-    width: 5vh;
-    height: 5vh;
-    background-color: red;
+    width: 7vh;
+    height: 7vh;
     margin-right: 10px;
-    border: 1px solid black;
+    border: 2px solid #ce0207;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .profil-pict {
