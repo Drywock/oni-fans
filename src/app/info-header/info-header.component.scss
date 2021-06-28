@@ -28,9 +28,9 @@ img {
     display: flex;
     justify-content: end;
     flex-direction: column;
-    height: 100%;
     padding-left: 2%;
     flex: 1;
+    align-self: flex-end;
 }
 
 .description {
@@ -48,6 +48,7 @@ img {
     border: 1px solid #ce0207;
     border-radius: 0px 10px;
     padding: 1% 3%;
+    align-self: flex-end;
 }
 
 .btn-donate:hover {
