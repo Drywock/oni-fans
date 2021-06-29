@@ -1,13 +1,14 @@
 .post {
     box-shadow: 5px 5px 5px rgb(112, 112, 112);
     margin-bottom: 10px;
-    padding: 2% 1.5%;
+    padding: 2% 2%;
     background-color: white;
 }
 
 .author-info {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .author-name {
@@ -48,4 +49,9 @@
     display: flex;
     justify-content: center;
     width: 100%;
+}
+
+.date-box {
+    display: flex;
+    align-items: center;
 }

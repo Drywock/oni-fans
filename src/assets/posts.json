@@ -6,8 +6,27 @@
     },
     "date": "27/06/2021",
     "content": {
-      "text": "Heatwave can't keep me down! Credit: Pema Mendez",
+      "text": "<lewd message pendind>",
+      "img": "assets/img/mayumi-jack-livingood.jpg"
+    },
+    "credit": {
+      "name": "Jack Livingood",
+      "link": "https://twitter.com/jack_livingood"
+    }
+  },
+  {
+    "author": {
+      "name": "Mayumi Himura",
+      "handle": "@mayhem"
+    },
+    "date": "27/06/2021",
+    "content": {
+      "text": "Heatwave can't keep me down!",
       "img": "assets/img/pema-art.jpg"
+    },
+    "credit": {
+      "name": "Pema Mendez",
+      "link": "https://twitter.com/PemaMendez"
     }
   },
   {
@@ -17,8 +36,12 @@
     },
     "date": "26/06/2021",
     "content": {
-      "text": "Cleaning Redtail to to get it extra clean Credit: Kim Im",
+      "text": "Cleaning Redtail to to get it extra clean.",
       "img": "assets/img/car-1.PNG"
+    },
+    "credit": {
+      "name": "Kim In",
+      "link": "https://twitter.com/kimukakugohan"
     }
   },
 
@@ -29,8 +52,27 @@
     },
     "date": "26/06/2021",
     "content": {
-      "text": "<message pending> Credit: Kim Im",
+      "text": "<message pending>",
       "img": "assets/img/car-2.PNG"
+    },
+    "credit": {
+      "name": "Kim Im",
+      "link": "https://twitter.com/kimukakugohan"
+    }
+  },
+  {
+    "author": {
+      "name": "Mayumi Himura",
+      "handle": "@mayhem"
+    },
+    "date": "23/05/2021",
+    "content": {
+      "text": "<message pending>",
+      "img": "assets/img/mayumi-sam.jpg"
+    },
+    "credit": {
+      "name": "Sam",
+      "link": "https://twitter.com/pistachiostars"
     }
   },
   {
@@ -40,8 +82,12 @@
     },
     "date": "21/05/2021",
     "content": {
-      "text": "Just chilling. Credit: Luft",
+      "text": "Just chilling.",
       "img": "assets/img/mayhem-full.jpg"
+    },
+    "credit": {
+      "name": "Luft",
+      "link": "https://twitter.com/Luftschlos5"
     }
   }
 ]

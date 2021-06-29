@@ -13,12 +13,12 @@
                 </div>
             </div>
         </div>
-        <div>
-            {{ post.date }}
+        <div class="date-box">
+            <span>{{ post.date }}</span>
         </div>
     </div>
     <div>
-        <p>{{ post.content.text }}</p>
+        <p>{{ post.content.text }} Credit:<a [href]="post.credit.link">{{ post.credit.name }}</a></p>
         <div class="post-img-box">
             <img class="post-img" [src]="post.content.img" />
         </div>
