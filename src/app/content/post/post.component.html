@@ -20,7 +20,12 @@
     <div>
         <p>{{ post.content.text }} Credit:<a [href]="post.credit.link">{{ post.credit.name }}</a></p>
         <div class="post-img-box">
-            <img class="post-img" [src]="post.content.img" />
+            <div *ngIf="hidder; else imgBlock" class="hidder">
+                <button class="btn-show" (click)="onShow()">Show NSFW</button>
+            </div>
+            <ng-template #imgBlock>
+                <img class="post-img" [src]="post.content.img" />
+            </ng-template>
         </div>
     </div>
 </div>

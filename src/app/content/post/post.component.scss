@@ -55,3 +55,19 @@
     display: flex;
     align-items: center;
 }
+
+.hidder {
+    display: flex;
+    background-color: darkgrey;
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 10px 10px white;
+}
+
+.btn-show {
+    height: 25%;
+    width: 20%;
+}

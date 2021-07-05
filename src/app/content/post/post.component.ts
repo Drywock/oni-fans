@@ -19,9 +19,15 @@ export class PostComponent implements OnInit {
   //   }
   // };
 
+  hidder: boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
+    this.hidder = this.post.content.isLewd
   }
 
+  public onShow(): void {
+    this.hidder = false;
+  }
 }
