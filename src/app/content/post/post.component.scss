@@ -58,7 +58,7 @@
 
 .hidder {
     display: flex;
-    background-color: darkgrey;
+    background-color: #fff3f0;
     height: 15vh;
     width: 100%;
     justify-content: center;
@@ -70,4 +70,15 @@
 .btn-show {
     height: 25%;
     width: 20%;
+    background-color: #ce0207;
+    color: white;
+    font-weight: bold;
+    border-radius: 0px 10px;
+    border: 1px solid #ce0207;
+    box-shadow: 5px 5px 5px rgb(112, 112, 112);
+}
+
+.btn-show:hover {
+    color: #ce0207;
+    background-color: white;
 }
