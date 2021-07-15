@@ -1,7 +1,7 @@
 main {
     padding: 0.25% 25%;
     overflow-y: scroll;
-    height: 92vh;
+    height: 87vh;
     scrollbar-width: none;
 }
 
@@ -12,6 +12,10 @@ main {
     width: 100%;
     background-color: white;
     padding: 0.25% 0;
+}
+
+footer { 
+    height: 5vh;
 }
 
 img {
