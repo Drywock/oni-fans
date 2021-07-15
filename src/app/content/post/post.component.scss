@@ -1,5 +1,5 @@
 .post {
-    box-shadow: 5px 5px 5px rgb(112, 112, 112);
+    box-shadow: 3px 3px 10px #b4b4b4;
     margin-bottom: 10px;
     padding: 2% 2%;
     background-color: white;
@@ -33,7 +33,7 @@
     border: 2px solid #ce0207;
     border-radius: 50%;
     overflow: hidden;
-    box-shadow: 3px 3px 3px #707070;
+    box-shadow: 0px 3px 3px #b4b4b4;
 }
 
 .profil-pict {
@@ -76,7 +76,7 @@
     font-weight: bold;
     border-radius: 0px 10px;
     border: 1px solid #ce0207;
-    box-shadow: 5px 5px 5px rgb(112, 112, 112);
+    box-shadow: 0px 3px 3px #b4b4b4;
 }
 
 .btn-show:hover {
