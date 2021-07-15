@@ -29,13 +29,13 @@ export interface IPost {
   providedIn: 'root'
 })
 export class PostsService {
-  private _posts: Observable<IPost>;
+  private _posts: Observable<IPost[]>;
 
   constructor() { 
     this._posts = of(POSTS);
   }
 
-  getPosts() {
+  getPosts(): Observable<IPost[]> {
     return this._posts;
   }
 }
